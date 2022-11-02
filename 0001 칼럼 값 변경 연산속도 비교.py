@@ -9,7 +9,7 @@ replace 0.1007 sec
 lambda 0.0867 sec
 list comprehesion 0.4237 sec
 """
-#####################################################
+#%%
 import pandas as pd
 import time
 import warnings
@@ -17,6 +17,7 @@ warnings.simplefilter(action='ignore', category=FutureWarning)
 warnings.simplefilter(action='ignore', category=UserWarning)
 pd.set_option('mode.chained_assignment',  None)
 #####################################################
+#%%
 import os
 os.getcwd()
 df = pd.read_excel('0001_df.xlsx')
@@ -25,6 +26,7 @@ ret_tmp = df.copy()
 ret_tmp1 = df.copy()
 ret_tmp2 = df.copy()
 #####################################################
+#%%
 bank_dict = {'KEB하나':'하나', 'ＫＥＢ하나':'하나', 'ＫＢ국민':'국민', 'KB국민카드':'KB국민카드','국민은행':'국민', '우리은행':'우리','ＮＨ농협은행':'농협은행', '농협':'농협은행'}
 
 start = time.time()
