@@ -1,1 +1,1 @@
-# python code study
+# 효율적인 코드 작성 연구
