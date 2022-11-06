@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-"https://velog.io/@mttw2820/List-Comprehension-%EB%AC%B8%EB%B2%95-%EC%A0%95%EB%A6%AC 참고"
+"학습참고: https://velog.io/@mttw2820/List-Comprehension-%EB%AC%B8%EB%B2%95-%EC%A0%95%EB%A6%AC"
 
 #####################################################
 #%%
