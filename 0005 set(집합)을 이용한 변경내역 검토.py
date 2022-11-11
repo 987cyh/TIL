@@ -8,6 +8,9 @@
 #%%
 import geopandas as gpd
 import pandas as pd
+import numpy
+import fiona
+import six
 import warnings
 warnings.simplefilter(action='ignore', category=FutureWarning)
 warnings.simplefilter(action='ignore', category=UserWarning)
@@ -21,7 +24,9 @@ that_month = gpd.read_file('AL_00_D129_20221001.zip', encoding='cp949')
 # 변경된 경관지구 개수 확인하기
 
 # 이번달에만 있음
-print("이번달 경관지구 변경개수: %s" %(len(set(this_month['MNUM'].unique()) - set(that_month['MNUM'].unique()))))
+print("이번달 경관지구 변경개수: %s" %(len(set(this_month['A1'].unique()) - set(that_month['A1'].unique()))))
 # 지난달에만 있음
-print("지난달에만 존재하는 경관지구 개수: %s" %(len(set(that_month['MNUM'].unique()) - set(this_month['MNUM'].unique()))))
+print("지난달에만 존재하는 경관지구 개수: %s" %(len(set(that_month['A1'].unique()) - set(this_month['A1'].unique()))))
 ###############################################################
+cake = 'cake'
+cake.replace({'a':''})
