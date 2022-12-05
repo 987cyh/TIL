@@ -25,8 +25,6 @@ df.sum(axis=0)
 df.apply(lambda row: sum(row), axis=1)
 df.sum(axis=1)
 #----------------------------------
-
-
 cols = ['a', 'b', 'c']
 df['combined_key'] = df[cols].apply(lambda row: '_'.join(row.values.astype(str)), axis=1)
 #----------------------------------
