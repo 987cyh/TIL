@@ -3,7 +3,7 @@
 □ 활용 : 데이터프레임 내 칼럼 추출후 전처리
 
 □ 참고 : https://wikidocs.net/151224
-□ 기능: dtype기반 열 선택 (select_dtyps)
+□ 기능: dtype기반 열 선택 (select_dtypes)
 
 df.dtypes
 * include 및 exclude는 비어있거나 겹치면 안되며(에러발생), 스칼라나 list형태의 입력값이 가능합니다.
