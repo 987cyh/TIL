@@ -13,7 +13,7 @@ dates = pd.date_range('2022-01-01', periods=48, freq='M')
 
 # additive model: trend + cycle + seasonality + irregular factor
 timestamp = np.arange(len(dates))
-np.random.seed(2004)
+np.random.seed(1004)
 
 trend_factor = timestamp*1.1
 cycle_factor = 10*np.sin(np.linspace(0, 3.14*2, 48))
