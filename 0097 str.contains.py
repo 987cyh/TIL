@@ -2,6 +2,7 @@
 """
 □ 참고 : https://rfriend.tistory.com/740
 □ 목적 : str.contains 기능 재복습(NA/NAN Values 파라미터 복습)
+□ 목적 : 데이터 전치리 사용
 """
 #%%
 import numpy as np
