@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-□ 참고 : https://docs.dataprep.ai/installation.html
+□ 참고 : https://pypi.org/project/sweetviz/
 □ 기능 : sweetviz
 □ 목적 : sweetviz 학습(Automated EDA)
 """
